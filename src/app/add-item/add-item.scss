@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.heading{
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.input{
+  width: 60%;
+  padding: 16px;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 2px solid #111111
+}
+
+.button{
+  background: #000000;
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 40%;
+  border: 2px solid #000000;
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
+.backFab{
+  background-color: #000000;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+}
+
+.backFab:active{
+  transform: scale(0.9);
+}

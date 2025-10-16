@@ -1,0 +1,27 @@
+.itemContainer {
+  width: 70vw;
+  max-width: 70vw;
+  min-width: 70vw;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 0 auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.itemContainer h1,
+.itemContainer p {
+  margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: sans-serif;
+}
+
+.itemContainer p {
+  color: #555;
+  font-family: sans-serif;
+  margin-top: 10px;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 class="heading">InSearch</h1>
+
+  <input type="text" placeholder="Search" [(ngModel)]="searchText" class="input"/>
+
+  <div class="list">
+    <app-list-view
+      *ngFor="let item of filteredItems()"
+      [title]="item.title"
+      [content]="item.content">
+    </app-list-view>
+  </div>
+
+  <button class="addButton" routerLink="/add">+</button>
+</div>

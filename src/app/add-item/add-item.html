@@ -1,0 +1,21 @@
+<div class="container">
+  <h1 class="heading">Add Item</h1>
+
+  <input
+    type="text"
+    placeholder="Title"
+    [(ngModel)]="heading"
+    class="input"
+  />
+
+  <input
+    type="text"
+    placeholder="Content"
+    [(ngModel)]="content"
+    class="input"
+  />
+
+  <button class="button" (click)="addItem()">Add</button>
+
+  <button class="backFab" routerLink="/">←</button>
+</div>
