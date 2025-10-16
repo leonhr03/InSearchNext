@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/InSearchNext',
   supportedLocales: {
   "en-US": ""
 },
